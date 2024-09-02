@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capabilities</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/logo-3.png" type="image/icon type">
+    <link rel="stylesheet" href="css/capabilities.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+ 
+ <!--------HEADER-------->   
+ <div class="header"> 
+    <div class="left-section active">
+        <img class="logo" src="images/logo.gif">
+        <div class="div-home"><a class ="text-home" href="index.html">HOME</a></div>
+        <div class="div-vehicle"><a class="text-vehicle" href="vehiclesPage.html">VEHICLES</a></div>
+        <div class="div-shopping"><a class="text-shopping" href="shopping.html">SHOPPING</a></div>
+        <div class="div-capabilities"><a class="text-capabilities" href="capabilities.html">CAPABILITIES</a></div>
+    </div>
+    <div class="right-section">
+        <img  class="icon-navigate" src="images/google-maps.png">
+        <div class="text"><a class="find-delaer-text"href="https://www.google.com/maps/search/google+maps/@10.3891776,123.8078352,13z" target="_blank">FIND A DEALER</a></div>
+    </div>
+    <div class="menu-container">
+        <img class="logo2" src="images/logo.gif">
+   <div class="menu-icon">
+       <i class="fa-solid fa-car menu"></i>
+       <i class="fa-solid fa-bars fa-lg menu"></i>
+   </div>
+   </div>
+</div>
+
+<div><img class="image-body" src="images/jeep-renegade-limited-background_1900x950.jpg.img.1440.jpg"></div>
+<div class="cover">
+    <div class="box">
+        <img src="images/trail4x4.jpg" alt="Trail" style="width:300px;height:200px;">
+        <h2 style="color:black">TRIAL RATED</h2>
+        <p style="color:black">Goes beyond a badge. Trail Rated represents the confidence to take on most any challenge.  It’s our commitment to creating endless opportunities for you to discover your limits and push right past them. When you drive a Trail Rated vehicle, adventure is wherever you want it to be.</p>
+    </div>
+    <div class="box">
+        <img src="images/4x4jeep.jpg" alt="Jeep" style="width:300px;height:200px;">
+        <h2 style="color:black">4x4 SYSTEMS</h2>
+        <p style="color:black">Not all 4x4s are created equal. Jeep® Brand vehicles are designed and tested in some of the most inhospitable locations on the planet so you can feel confident when driving in a rain or snow storm or when off-roading with like-minded friends. Choose an all-weather-capable Jeep Brand 4x4 system to master any terrain and help feed your passion for adventure.</p>
+    </div>
+</div>
+
+<!------------------FOOTER------------>
+<div class="footer-whole-container">
+    <div class="">
+        <div class="con">
+            <img  class="footer-logo" src="images/logo.gif">
+            <div>
+                <div class="title-text"><p>VEHICHLES</p><p>SHOPPING TOOLS</p><p>CAPABILITIES</p></div>
+                <div class="container-data">
+                    <div class="div-margin0"><p>Renegade</p><p>Wrangler</p><p>Gladiator</p><p>Compass</p></div>
+                    <div class="div-margin1"><p>Sign Up For Updates</p><p>Find A Dealer</p><p>Get A Quote</p><p>Schedule A Test Drive</p><p>Download Brochure</p></div>
+                    <div class="div-margin2"><p>Trail Rated</p><p>4X4 Systems</p><p>FAQs & Glossary</p><p>Fuel Efficiency</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="line">©2023 BSIT 1st CETA. All Rights Reserved.</div>
+    </div>     
+</div>
+
+<script>
+    const menuiconEl = document.querySelector(".menu-icon");
+const leftsectionEl = document.querySelector(".left-section");
+
+let counts = 0
+
+menuiconEl.addEventListener("click", ()=>{
+    if(counts %2 === 0){
+        leftsectionEl.classList.remove("active");
+        counts++
+    }
+    else{
+        leftsectionEl.classList.add("active");
+        counts++
+    }
+});
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+

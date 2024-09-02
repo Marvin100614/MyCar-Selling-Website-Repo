@@ -1,0 +1,213 @@
+.header{
+    position: relative;
+    background-color: rgba(0,0,0,0.5);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 350px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+.header .text{
+    width: 130px;
+    font-size: 14px;
+    color: rgba(255,255,255, .8);
+    cursor: pointer;
+    transition: color 0.15s;
+}
+.div-home, .div-vehicle, .div-capabilities, .div-aboutus, .div-shopping{
+    width: 130px;
+}
+.text-home{
+    text-decoration: underline;
+    font-size: 15px;
+    color: #E5A81C;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+.text-vehicle, .text-capabilities, .text-aboutus, .text-shopping{
+    color: rgba(255,255,255, .8);
+    text-decoration: none;
+}
+.text:hover, .text-vehicle:hover , .text-capabilities:hover, .text-aboutus:hover, .text-shopping:hover, .find-delaer-text:hover{
+    color: #E5A81C;
+}
+.logo{
+    height: 200px;
+    position: absolute;
+    left: 90px;
+    top: -70px;
+}
+.left-section{
+    display: flex;
+    opacity: 1;
+    transition: .4s ease-in-out;
+}
+
+.right-section{
+    display: flex;
+    padding-right: 120px;
+    position: relative;
+}
+.icon-navigate{
+    position: absolute;
+    height: 30px;
+    top: -8px;
+    left: -30px;
+}
+.find-delaer-text{
+    text-decoration: none;
+    color: rgba(255,255,255, .8);   
+    font-size: 15px;
+}
+.menu{
+ color:#E5A81C;
+}
+.menu-container{
+    display: none;
+    cursor: pointer;
+   }
+   .menu-container .menu-icon:hover{
+    opacity: .5;
+    transition: .4;
+   }
+   .menu-container .menu-icon:active{
+    opacity: 1;
+    transition: .4;
+   }
+ 
+/* ------ RESPONSIVE SCREEN  FOR HOME PAGE ONLY------*/
+
+@media (max-width: 800px){
+   .left-section,
+   .right-section{
+    display: none;
+   }
+   .active.left-section{
+    visibility: hidden;
+    opacity: 0;
+    top: 10%;
+   }
+   .menu-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   }
+    .logo{
+    visibility: hidden;
+   }
+   .logo2{
+    height: 130px;
+    left: 5%;
+    top: -60%;
+    position: absolute;
+    }
+    .left-section
+    {
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: rgba(0,0,0, 0.9);
+    width: 150px;
+    height: 120px;
+    text-align: center;
+    border-radius: 10px;
+    }
+    .left-section a{
+        font-size: 14px;
+    }
+    .div-home, .div-vehicle, .div-capabilities, .div-aboutus, .div-shopping{
+        margin: 5px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1000px){
+    .header{
+        padding-left: 80px;
+        justify-content: space-around;
+    }
+    .left-section a{
+        font-size: 10px;
+    }
+    .header .text{
+        width: 80px;  
+    }
+    .div-home, .div-vehicle, .div-capabilities, .div-aboutus, .div-shopping{
+        width: 80px;
+    }
+    .logo{
+        height: 100px;
+        left: 0px;
+        top: -25px;
+    }
+    .right-section{
+        display: flex;
+        position: relative;
+        padding: 0;
+    }
+    .icon-navigate{
+        height: 16px;
+        top: -2px;
+        left: -15px;
+    }
+    .find-delaer-text{ 
+        font-size: 10px;
+        width: 80px;
+    }
+}
+
+@media(min-width: 1001px) and (max-width: 1229px){
+    .header{
+        padding-left: 100px;
+        justify-content: space-around;
+        transition: .4s ease-in-out;
+    }
+    .left-section a{
+        font-size: 14px;
+    }
+    .header .text{
+        width: 100px;  
+    }
+    .div-home, .div-vehicle, .div-capabilities, .div-aboutus, .div-shopping{
+        width: 100px;
+    }
+    .logo{
+        height: 150px;
+        left: 0px;
+        top: -50px;
+    }
+    .right-section{
+        display: flex;
+        position: relative;
+        padding: 0;
+    }
+    .icon-navigate{
+        height: 20px;
+        top: -2px;
+        left: -25px;
+    }
+    .find-delaer-text{ 
+        font-size: 13px;
+        width: 100px;
+    }
+}
+
+@media (min-width: 1230px){
+    .header{
+       
+        transition: .4s ease-in-out;
+    }
+}
+
+
+
+
+
+
+
+

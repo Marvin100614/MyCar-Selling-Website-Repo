@@ -1,0 +1,448 @@
+/* --- BODY ---*/
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(192, 192, 192);
+    background-color: rgb(255, 255, 255);
+}
+.image-body{
+    width: 100%;
+    height: 55vh; 
+}
+p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 17px;
+}
+/* ------HEADER FOR CAPABILITIES PAGE ------*/
+.header{
+    
+    background-color: rgba(0,0,0,0.5);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 350px;
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+.header .text{
+    width: 130px;
+    font-size: 15px;
+    color: rgba(255,255,255, .8);
+    cursor: pointer;
+}
+.div-home, .div-vehicle, .div-capabilities, .div-shopping{
+    width: 130px;
+}
+.text-capabilities{
+    width: 130px;
+    text-decoration: underline;
+    font-size: 16px;
+    color: #E5A81C;
+    cursor: pointer;
+}
+.text-vehicle,  .text-home , .text-aboutus, .text-shopping{
+    color: rgba(255,255,255, .8);
+    text-decoration: none;
+}
+.text:hover ,.text-vehicle:hover,  .text-home:hover, .text-aboutus:hover, .text-shopping:hover, .find-delaer-text:hover{
+    color: #E5A81C;
+    transition: color 0.15s;
+}
+.logo{
+    height: 200px;
+    position: absolute;
+    left: 90px;
+    top: -70px;
+}
+.left-section{
+    display: flex;
+}
+.right-section{
+    display: flex;
+    padding-right: 120px;
+    position: relative;
+}
+.icon-navigate{
+    position: absolute;
+    height: 30px;
+    top: -8px;
+    left: -30px;
+}
+.find-delaer-text{
+    text-decoration: none;
+    color: rgba(255,255,255, .8);   
+}
+.menu{
+    color:#E5A81C;
+   }
+   .menu-container{
+       display: none;
+       cursor: pointer;
+      }
+      .menu-container .menu-icon:hover{
+        opacity: .5;
+        transition: .4;
+       }
+       .menu-container .menu-icon:active{
+        opacity: 1;
+        transition: .4;
+       }
+
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ .cover{
+     margin: 50px 0px;
+     display: flex;
+     justify-content: center; 
+ }
+ .box{
+     width: 300px;
+     height: 400px;
+     font-size: 15px;
+     box-shadow: 10px 10px 10px rgba(0,0,0, .5);
+     text-align: center;
+     margin: 10px 50px 0px 50px;
+     border-radius: 10px;
+ }
+ .box img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+ }
+ .box p{
+    font-size: 14px;
+ }
+
+
+/* ------- SCREEN RESPONSIVE -------- */
+
+@media (max-width: 800px){
+    /* ---- HEADER -----*/
+
+    .left-section,
+    .right-section{
+     display: none;
+    }
+    .active.left-section{
+        visibility: hidden;
+        opacity: 0;
+        top: 10%;
+       }
+    .menu-container{
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+    }
+     .logo{
+     visibility: hidden;
+    }
+    .logo2{
+     height: 130px;
+     left: 5%;
+     top: -60%;
+     position: absolute;
+     }
+     .left-section
+     {
+     display: block;
+     position: absolute;
+     top: 50px;
+     right: 50px;
+     background-color: rgba(0,0,0, 0.9);
+     width: 150px;
+     height: 120px;
+     text-align: center;
+     border-radius: 10px;
+     }
+     .left-section a{
+         font-size: 14px;
+     }
+     .div-home, .div-vehicle, .div-capabilities, .div-aboutus, .div-shopping{
+         margin: 5px;
+     }
+
+     /*----------BoDY ----------*/
+
+     .div-2{
+        flex-direction: column;
+     }
+     .image-body{
+      
+        height: 65vh; 
+    }
+    .cover{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cover .box{
+        margin-top: 10%;
+    }
+
+      /*----------FOOTER ----------*/
+
+      .footer-whole-container{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .footer-container{
+        flex-direction: column;
+       }
+       .footer-2ndpage{
+         max-width: 80%;
+         display: flex;
+        flex-direction: column;
+        }
+       .title-text p{
+         font-size: 12px;
+       }
+       .container-data{
+         margin-bottom: 3;
+       }
+       .div-margin1, .div-margin2{
+        margin: 0;
+       }
+       .div-margin0{
+         margin: 0;
+       }
+       .div-margin0 p, .div-margin1 p, .div-margin2 p{
+         font-weight: lighter;
+         font-size: 12px;
+       }
+       .footer-whole-container .line{
+         width: 100%;
+         margin-top: 10px;
+         height: 40px;
+         }
+
+
+
+ }
+ 
+ @media (min-width: 801px) and (max-width: 1000px){
+     .header{
+         padding-left: 80px;
+         justify-content: space-around;
+     }
+     .left-section a{
+         font-size: 10px;
+     }
+     .header .text{
+         width: 80px;  
+     }
+     .div-home, .div-vehicle, .div-capabilities, .div-aboutus, .div-shopping{
+         width: 80px;
+     }
+     .logo{
+         height: 100px;
+         left: 0px;
+         top: -25px;
+     }
+     .right-section{
+         display: flex;
+         position: relative;
+         padding: 0;
+     }
+     .icon-navigate{
+         height: 16px;
+         top: -2px;
+         left: -15px;
+     }
+     .find-delaer-text{ 
+         font-size: 10px;
+         width: 80px;
+     }
+     /* ----- BODY ------ */
+     
+     .car-name .images{
+        width: 200px;
+        
+     }
+     .car-name p{
+        font-size: 8px;
+        
+     }
+
+
+     /* --------FOOTER --------- */
+     .footer-whole-container{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .footer-container{
+        flex-direction: column;
+        width: 100%;
+       }
+       .footer-2ndpage{
+         max-width: 80%;
+         display: flex;
+        flex-direction: column;
+        }
+       .title-text p{
+         font-size: 12px;
+       }
+       .container-data{
+         margin-bottom: 5%;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+       }
+       .div-margin1, .div-margin2{
+        margin: 0;
+       }
+       .div-margin0{
+         margin: 0;
+       }
+       .div-margin0 p, .div-margin1 p, .div-margin2 p{
+         font-weight: lighter;
+         font-size: 12px;
+       }
+       .footer-container .line{
+         width: 100%;
+         margin: 0;
+         height: 60px;
+         }
+         .footer-container .title-text{
+          margin-bottom: 15px;
+          margin-top: 30px;
+       }
+       .footer-container .con{
+        display: flex;
+        flex-direction: column;
+       }
+ }
+ 
+ @media(min-width: 1001px) and (max-width: 1229px){
+     .header{
+         padding-left: 100px;
+         justify-content: space-around;
+         transition: .4s ease-in-out;
+     }
+     .left-section a{
+         font-size: 14px;
+     }
+     .header .text{
+         width: 100px;  
+     }
+     .div-home, .div-vehicle, .div-capabilities, .div-aboutus, .div-shopping{
+         width: 100px;
+     }
+     .logo{
+         height: 150px;
+         left: 0px;
+         top: -50px;
+     }
+     .right-section{
+         display: flex;
+         position: relative;
+         padding: 0;
+     }
+     .icon-navigate{
+         height: 20px;
+         top: -2px;
+         left: -25px;
+     }
+     .find-delaer-text{ 
+         font-size: 13px;
+         width: 100px;
+     }
+
+     /*--------- BODY ------- */
+     .car-name .images{
+        width: 200px;
+     }
+     .car-name p{
+        font-size: 8px;
+     }
+
+     /* ------------ FOOTER ----------*/
+     .footer-whole-container{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .footer-container{
+        flex-direction: column;
+        width: 100%;
+       }
+       .footer-2ndpage{
+         max-width: 80%;
+         display: flex;
+        flex-direction: column;
+        }
+       .title-text p{
+         font-size: 12px;
+       }
+       .container-data{
+         margin-bottom: 5%;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+       }
+       .div-margin1, .div-margin2{
+        margin: 0;
+       }
+       .div-margin0{
+         margin: 0;
+       }
+       .div-margin0 p, .div-margin1 p, .div-margin2 p{
+         font-weight: lighter;
+         font-size: 12px;
+       }
+       .footer-container .line{
+         width: 100%;
+         margin: 0;
+         height: 60px;
+         }
+         .footer-container .title-text{
+          margin-bottom: 15px;
+          margin-top: 30px; 
+       }
+       .footer-container .con{
+        display: flex;
+        flex-direction: column;
+       }
+       .con .footer-logo{
+        width: 250px;
+        height: 150px;
+        display: block;
+        position: absolute;
+        top: 20%;
+        left: 2%;
+      }
+ }
+ 
+ @media (min-width: 1230px){
+    .footer-whole-container{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .con .footer-logo{
+        width: 300px;
+        height: 200px;
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 7%;
+     }
+     .footer-whole-container .line{
+       margin-top: 20px;
+        }
+ }
+

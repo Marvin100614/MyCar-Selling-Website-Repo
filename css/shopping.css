@@ -1,0 +1,609 @@
+/* --- BODY ---*/
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(192, 192, 192);
+    background-color: rgb(255, 255, 255);
+}
+p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 17px;
+}
+.image-body{
+    width: 100%;
+    height: 55vh; 
+}
+.txt-themost{
+    color: #E5A81C;
+    margin-right: 10px;
+}
+.txt-searched{
+    color: black;
+}
+.for-div1{
+    height: 40px;
+    margin: 0px 10%;
+    border-bottom: 1px solid black;
+}
+.div-1{
+    margin: 50px  0px 30px 50px;
+    display: flex;
+    justify-content: center;
+}
+.div-2, .car-name, .car-name2{
+    display: flex;
+    justify-content: space-around;  
+}
+.images{
+   width: 250px;
+ } 
+.whole-continer-forcardetails{
+    margin-bottom: 70px;
+}
+.car-name p{
+    color: black;
+    font-weight: 900;
+}
+.cardetails-container{
+   width: 50%;
+   display: inline-block;
+}
+.cardetails-container2{
+    width: 40%;
+    display: inline-block;
+}
+.car-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+}
+.car-details2{
+    margin-top: 10x;
+    margin-left: 75px;
+}
+.car-details p, .car-name2 p{
+    margin-top: 5px;
+    font-size: 10px;
+    color:rgb(62, 61, 61)
+}
+.car-details2 p{
+    margin-top: 5px;
+    font-size: 10px;
+    color:rgb(62, 61, 61)
+}
+.car-price-button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.car-price-button button{
+    color: #E5A81C;
+    font-weight: bold;
+    background-color: white;
+    width: 144px;
+    height: 32px;
+    border-color: #E5A81C;
+    font-size: 12px;
+}
+.car-price-button button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.image-body1{
+    width: 100%;
+    height: 100%; 
+}
+.body-image-2nd{
+    position: relative;
+    height: 40vh;
+}
+.video-text{
+    margin: 40px 0px 0px 30px;
+    position: absolute;
+    top: -10px;
+    left: 160px;
+  }
+  .container-fully {
+    display: flex;
+    margin-bottom: 10px;
+    
+ }
+ .sentence-text{
+    font-weight: lighter;
+    font-size: 14px;
+    color: white;
+ }
+ .btn-learnmore{
+    margin-top: 20px;
+  }
+  .btn-learnmore button{
+    width: 125px;
+    height: 30px;
+    background-color: #E5A81C;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: 0;
+  }
+  .btn-learnmore button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #9e8243;
+  }
+  .first-ever-text{
+    margin-top: 40px;
+    font-weight: bold;
+    color:  #E5A81C;
+    font-size: 20px;
+    margin-right: 8px;
+ }
+ .go-text{
+    margin-top: 40px;
+    font-weight: bold;
+    color:  white;
+    font-size: 18px;
+    margin-right: 8px;
+ }
+ .container-3images, .container-button1{
+    display: flex;
+    justify-content: center;
+ }
+ .container-3images{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .container-3images .container{
+    width: 250px;
+ }
+ .container .button1{
+    width: 120px;
+    height: 25px;
+    background-color: black;
+    color:  #E5A81C;
+    margin: 0px 120px 60px 120px;
+ }
+ .container-button1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+  }
+ .container-3images .images{
+    height: 35vh;
+    border-radius: 100%;
+    box-shadow: 5px 20px 20px black;
+    margin: 0px 20px 40px 40px;
+    width: 100%;
+ }
+ .container-3images .images:hover{
+    cursor: pointer;
+   transform: scale(1.1)
+ }
+ button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.8;
+ }
+
+/* ------HEADER FOR SHOPPING PAGE ------*/
+.header{
+    position: relative;
+    background-color: rgba(0,0,0,0.5);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 350px;
+    position: fixed;
+    right: 0;
+    left: 0;    
+}
+.header .text{
+    width: 130px;
+    font-size: 15px;
+    color: rgba(255,255,255, .8);
+    cursor: pointer;
+}
+.text-shopping{
+    width: 130px;
+    text-decoration: underline;
+    font-size: 16px;
+    color: #E5A81C;
+    cursor: pointer;
+}
+.text:hover{
+    color: #E5A81C;
+    transition: color 0.15s;
+}
+.text-home:hover, .text-capabilities:hover, .text-aboutus:hover,.find-delaer-text:hover ,.text-vehicle:hover{
+    color: #E5A81C;
+    transition: color 0.15s;
+}
+.div-home, .div-vehicle, .div-capabilities, .div-shopping{
+    width: 130px;
+}
+.text-home , .text-capabilities, .text-aboutus, .text-vehicle, .find-delaer-text{
+    color: rgba(255,255,255, .8);
+    text-decoration: none;
+}
+.logo{
+    height: 200px;
+    position: absolute;
+   left: 90px;
+   top: -70px;
+}
+.left-section{
+    display: flex;
+}
+.right-section{
+    display: flex;
+   padding-right: 120px;
+   position: relative;
+}
+.icon-navigate{
+    position: absolute;
+    height: 30px;
+    top: -8px;
+    left: -35px;
+}
+.menu{
+    color:#E5A81C;
+   }
+   .menu-container{
+      display: none;
+      cursor: pointer;
+      }
+      .menu-container .menu-icon:hover{
+        opacity: .5;
+        transition: .4;
+       }
+       .menu-container .menu-icon:active{
+        opacity: 1;
+        transition: .4;
+       }
+
+
+@media (max-width: 800px){
+    /* ---- HEADER -----*/
+    .left-section,
+    .right-section{
+     display: none;
+    }
+    .active.left-section{
+        visibility: hidden;
+        opacity: 0;
+        top: 10%;
+       }
+    .menu-container{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+     .left-section .logo{
+     display: none;
+    }
+    .logo2{
+     height: 130px;
+     left: 5%;
+     top: -60%;
+     position: absolute;
+     }
+     .left-section
+     {
+     display: block;
+     position: absolute;
+     top: 50px;
+     right: 50px;
+     background-color: rgba(0,0,0, 0.9);
+     width: 150px;
+     height: 120px;
+     text-align: center;
+     border-radius: 10px;
+     }
+     .left-section a{
+         font-size: 14px;
+     }
+     .div-home, .div-vehicle, .div-capabilities, .div-aboutus, .div-shopping{
+         margin: 5px;
+     }
+
+     /*----------BoDY ----------*/
+
+     .div-2{
+        flex-direction: column;
+     }
+     .container-for-div2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .container-for-div2 .images{
+        width: 400px;
+     }
+     .image-body{
+        height: 65vh; 
+    }
+    .container-3images{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-3images .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+      /*----------FOOTER ----------*/
+
+      .footer-whole-container{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .footer-container{
+        flex-direction: column;
+       }
+       .footer-2ndpage{
+         max-width: 80%;
+         display: flex;
+        flex-direction: column;
+        }
+       .title-text p{
+         font-size: 12px;
+       }
+       .container-data{
+         margin-bottom: 3;
+       }
+       .div-margin1, .div-margin2{
+        margin: 0;
+       }
+       .div-margin0{
+         margin: 0;
+       }
+       .div-margin0 p, .div-margin1 p, .div-margin2 p{
+         font-weight: lighter;
+         font-size: 12px;
+       }
+       .footer-whole-container .line{
+         width: 100%;
+         margin-top: 10px;
+         height: 40px;
+         }
+
+
+
+ }
+ 
+ @media (min-width: 801px) and (max-width: 1000px){
+ 
+     .header{
+         padding-left: 100px;
+         justify-content: space-around;
+        
+     }
+     .left-section a{
+         font-size: 10px;
+     }
+     .header .text{
+         width: 80px;  
+     }
+     .div-home, .div-vehicle, .div-capabilities, .div-aboutus, .div-shopping{
+         width: 80px;
+     }
+     .logo{
+         height: 100px;
+         left: 0px;
+         top: -25px;
+     }
+     .right-section{
+         display: flex;
+         position: relative;
+         padding: 0;
+     }
+     .icon-navigate{
+         height: 16px;
+         top: -2px;
+         left: -15px;
+     }
+     .find-delaer-text{ 
+         font-size: 10px;
+         width: 80px;
+     }
+     /* ----- BODY ------ */
+     
+     .car-name .images{
+        width: 200px;
+     }
+     .car-name p{
+        font-size: 8px;
+     }
+     .container .images{
+        width: 180px;
+     }
+     .container-for-div2 .images{
+        width: 200px;
+     }
+
+
+     /* --------FOOTER --------- */
+     .footer-whole-container{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .footer-container{
+        flex-direction: column;
+        width: 100%;
+       }
+       .footer-2ndpage{
+         max-width: 80%;
+         display: flex;
+        flex-direction: column;
+        }
+       .title-text p{
+         font-size: 12px;
+       }
+       .container-data{
+         margin-bottom: 5%;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+       }
+       .div-margin1, .div-margin2{
+        margin: 0;
+       }
+       .div-margin0{
+         margin: 0;
+       }
+       .div-margin0 p, .div-margin1 p, .div-margin2 p{
+         font-weight: lighter;
+         font-size: 12px;
+       }
+       .footer-container .line{
+         width: 100%;
+         margin: 0;
+         height: 60px;
+         }
+         .footer-container .title-text{
+          margin-bottom: 15px;
+          margin-top: 30px;
+       }
+       .footer-container .con{
+        display: flex;
+        flex-direction: column;
+       }
+ }
+ 
+ @media(min-width: 1001px) and (max-width: 1229px){
+     .header{
+         padding-left: 100px;
+         justify-content: space-around;
+         transition: .4s ease-in-out;
+     }
+     .left-section a{
+         font-size: 14px;
+     }
+     .header .text{
+         width: 100px;  
+     }
+     .div-home, .div-vehicle, .div-capabilities, .div-aboutus, .div-shopping{
+         width: 100px;
+     }
+     .logo{
+         height: 150px;
+         left: 0px;
+         top: -50px;
+     }
+     .right-section{
+         display: flex;
+         position: relative;
+         padding: 0;
+     }
+     .icon-navigate{
+         height: 20px;
+         top: -2px;
+         left: -25px;
+     }
+     .find-delaer-text{ 
+         font-size: 13px;
+         width: 100px;
+     }
+
+     /*--------- BODY ------- */
+     .car-name .images{
+        width: 200px;
+     }
+     .car-name p{
+        font-size: 8px;
+     }
+
+     /* ------------ FOOTER ----------*/
+     .footer-whole-container{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .footer-container{
+        flex-direction: column;
+        width: 100%;
+       }
+       .footer-2ndpage{
+         max-width: 80%;
+         display: flex;
+        flex-direction: column;
+        }
+       .title-text p{
+         font-size: 12px;
+       }
+       .container-data{
+         margin-bottom: 5%;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+       }
+       .div-margin1, .div-margin2{
+        margin: 0;
+       }
+       .div-margin0{
+         margin: 0;
+       }
+       .div-margin0 p, .div-margin1 p, .div-margin2 p{
+         font-weight: lighter;
+         font-size: 12px;
+       }
+       .footer-container .line{
+         width: 100%;
+         margin: 0;
+         height: 60px;
+         }
+         .footer-container .title-text{
+          margin-bottom: 15px;
+          margin-top: 30px; 
+       }
+       .footer-container .con{
+        display: flex;
+        flex-direction: column;
+       }
+       .con .footer-logo{
+        width: 250px;
+        height: 150px;
+        display: block;
+        position: absolute;
+        top: 20%;
+        left: 2%;
+      }
+ }
+ 
+ @media (min-width: 1230px){
+    .footer-whole-container{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .con .footer-logo{
+        width: 300px;
+        height: 200px;
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 7%;
+     }
+     .footer-whole-container .line{
+       margin-top: 20px;
+        }
+ }
